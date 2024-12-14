@@ -62,7 +62,6 @@ body, html {
 .center-card{
   position: absolute;
   background-color: var(--nav-and-card-colour);
-  display: flex;
   justify-content: center; 
   top: 50%;
   left: 50%;
@@ -73,8 +72,44 @@ body, html {
   flex-direction: column;
 }
 
+.horizontal-line{
+  height: 1px;
+  border-radius: 10px;
+  background-color: var(--main-font-colour);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.home-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+.home-text{
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.home-links-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.home-link{
+  background-color: var(--background-colour-particles);
+  color: var(--main-font-colour);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  text-decoration: none;
+}
 .e404-title-text{
   font-size: 42px;
+  font-weight: bold;
 }
 .e404-body-text{
   font-size: 20px;
