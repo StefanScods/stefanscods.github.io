@@ -119,3 +119,48 @@ body, html {
   width: 300px;
   height: auto;
 }
+
+.default-page-body{
+  margin: 15px;
+}
+.default-page-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 5px;
+  white-space: nowrap;
+}
+.default-page-text{
+  font-size: 16px;
+  margin: 5px;
+}
+
+.project-list-entry{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  margin-top: 30px;
+  max-height: 300px;
+}
+
+.project-list-content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.project-title{
+  color: var(--main-font-colour);
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.project-list-image{
+  width: 300px;
+  height: 300px;
+}
+.project-body{
+  color: var(--main-font-colour);
+  font-size: 16px;
+}
