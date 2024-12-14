@@ -1,14 +1,86 @@
+:root {
+  --main-font-colour: #FFFAA0;
+  --background-colour: #252525;
+  --background-colour-particles: #171717;
+  --nav-and-card-colour: #0F0F0F;
+}
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
+    font-family: "consolas";
+    color: var(--main-font-colour);
+    background-color: var(--background-colour);
   }
 
 .particle-background{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #0F0F0F;
+    background-color: var(--background-colour-particles);
+    z-index: 0;
   }
+
+.navbar-parent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--nav-and-card-colour); 
+}
+.navbar-left{
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+.navbar-right{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item{
+  flex-grow: 0;
+  color: var(--main-font-colour);
+  margin: 20px;
+  font-size: 16px;
+}
+
+.navbar-divider{
+  border-left: 3px solid var(--main-font-colour);
+  height: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 10px;
+}
+
+.navbar-home{
+  font-size: 20px;
+}
+
+.center-card{
+  position: absolute;
+  background-color: var(--nav-and-card-colour);
+  display: flex;
+  justify-content: center; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.e404-title-text{
+  font-size: 42px;
+}
+.e404-body-text{
+  font-size: 20px;
+}
+.e404-panda{
+  margin-top: 30px;
+  width: 300px;
+  height: auto;
+}

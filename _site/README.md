@@ -11,3 +11,4 @@ Repository for my personal website built using [jekyll](https://jekyllrb.com/) :
     - [particles.js](https://github.com/VincentGarreau/particles.js)
 - Red Panda images:
     - [Zoo De Granby](https://www.zoodegranby.com/en/animals/red-panda)
+    - [404 Panda - Photo by Suki Lee (Pexels)](https://www.pexels.com/photo/raccoon-lying-down-on-planks-16203654/)

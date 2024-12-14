@@ -7,7 +7,7 @@
 
     <title>{{ page.title }}</title>
 
-    {% if page.layout == "home" %}
+    {% if page.layout == "home" or page.layout == "404error"%}
         <script src="/dependencies/particles.js/particles.js"></script>
         <script src="/main.js"></script>
     {% endif %}

@@ -1,4 +1,16 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
+<nav class="navbar-parent">
+  <div class="navbar-left">
+    <a href="/" class="navbar-item navbar-home">
+      {% if page.layout != "home" %}
+      Stefan Scodellaro
+      {% endif %}
+    </a>
+  </div>
+  <div class="navbar-right">
+    <a href="/projects" class="navbar-item">Projects</a>
+    <div class="navbar-divider"></div>
+    <a href="/devlogs" class="navbar-item">DevLogs</a>
+  </div>
+
+
 </nav>
