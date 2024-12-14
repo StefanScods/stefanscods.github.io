@@ -2,6 +2,16 @@
 
 Repository for my personal website built using [jekyll](https://jekyllrb.com/) :)
 
+# Build
+ 1) Install jekyll using [these instructions](https://jekyllrb.com/docs/installation/windows/)
+ 2) Build the site using:
+ ```sh
+ jekyll build
+ ```
+ 3) Host development environment using:
+ ```sh
+ jekyll serve
+ ```
 
 ## Credits
 - General website construction:
